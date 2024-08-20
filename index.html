@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--fim Bootstrap-->
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio de Alex Dognini estudante de ADS</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface" id="topo">
+            <div class="logo">
+                <h1>-----ALEX-----<br><span>DOGNINI</span></h1>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#sobre mim">Sobre Mim</a></li>
+                    <li><a href="#minha formação">Minha Formação</a></li>
+                    <li><a href="#meus projetos">Meus Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul> 
+            </nav><!--menu-desktop-->
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+
+                    <div class="txt-topo-site">
+                        <h1 id="Sobre Mim">PRAZER! SOU <span>ALEX DOGNINI.</span></h1>
+                        <p>Olá! Meu nome é Alex Dognini e tenho 33 anos. Tenho formação em Técnico em Eletromecânica, feito pelo SENAI-SC. Trabalho há 13 anos em uma metalúrgica. No momento, estou cursando Análise e Desenvolvimento de Sistemas pela UNINTER e pretendo migrar de profissão trabalhando com programação.</p>
+                        
+                        <p>Minhas principais habilidades incluem aprendizado rápido, dedicação, resiliência e a capacidade de ouvir e aproveitar bem dicas e conselhos. Estou sempre buscando aprimorar meus conhecimentos na área de tecnologia.</p>
+                        
+                        <p>Nos momentos de lazer, adoro aproveitar meu tempo livre com meu filho e minha esposa. Fazemos passeios juntos e também aproveitamos para visitar o sítio na casa dos meus pais.</p>
+    
+                        <p>Meu objetivo é me tornar um desenvolvedor fullstack. Estou concentrado em dominar as principais ferramentas e tecnologias da área, como JavaScript, React, Node.js, SQL, Python, Git, GitHub e outras.</p>
+                        <div class="btn-contato">
+                            <a href="#contato"><button>Entre em contato</button></a>
+                        </div><!--btn-contato-->
+                    </div><!--topo-do-site-->
+
+                    <div class="img-topo-site">
+                        <img src="imagens/alex.png" alt="Esse sou eu!"
+                    </div><!--imagem-topo-site-->
+
+                </div><!--flex-->
+            </div><!--iterface-->
+            <br><br>
+            <div class="voltar"><a href="#topo">Voltar ao topo</a></div>
+        </section><!--topo-do-site-->
+        <br><br>
+
+        <section class="corpo-site">
+            <div class="interface">
+                <h2 class="titulo" id="minha formação">MINHA <span>FORMAÇÃO</span></h2>
+                <div class="caixa">
+                    <h3>Ensino Médio</h3>
+                    <p>Escola de Eeb Cacilda Guimarães. - concluido em 2008</p>
+                </div><!--caixa-->
+                
+                <div class="caixa">
+                    <h3>Ensino Técnico</h3>
+                    <p>Técnico em Eletromecânica. - SENAI-SC - concluido em 2010</p>
+                </div><!--caixa-->
+
+                <div class="caixa">
+                    <h3>Participação em eventos</h3>
+                    <p>Programa por dentro do mercado de TI - 2024</p>
+                </div><!--caixa-->
+
+                <div class="caixa">
+                    <h3>Cursando</h3>
+                    <p>Análise e Desenvolvimento de Sistemas - UNINTER</p>
+                </div><!--caixa-->
+
+            </div><!--interface-->
+            <div class="voltar"><a href="#topo">Voltar ao topo</a></div>
+        </section><!--corpo-site-->
+        
+
+        <section class="corpo-site">
+            <div class="interface">
+                <h2 class="titulo" id="meus projetos">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="caixa2" style="background-image: url(imagens/dragao.png);
+                    background-size: cover; filter: grayscale(20%);">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Site</h3>
+                        <p>Um site destinado aos amantes dos livros As Crônicas de Gelo e Fogo. Nele, eu apresento alguns dos dragões da Casa Targaryen.</p>
+                        <p>Venha conhecer!</p>
+                        <div class="link">
+                            <a href="https://lelecodog.github.io/SiteDragao/">Dragões da Casa targaryan</a>
+                        </div><!--link-->     
+                    </div><!--caixa2-->
+
+                    <div class="caixa2"
+                    style="background-color: rgb(23, 104, 30);">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Site Cervida</h3>
+                        <p>Site sera realizado para a instituição de reabilitação Cervida,
+                        que atua na área de assistência psicossocial e a saúde, oferecendo suporte
+                        a portadores de distúrbio psíquicos, deficiência mental e dependência
+                        química. Localizada no município de Vidal Ramos, SC. </p>
+                        <p>EM BREVE...</p>
+                    </div><!--caixa2-->
+                </div><!--flex-->
+            </div><!--interface-->
+            <div class="voltar"><a href="#topo">Voltar ao topo</a></div>
+        </section><!--corpo-site-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo" id="contato">FALA <span>COMIGO</span></h2>
+
+                <form action="envia.php" method="post">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="text" name="E-mail" id="E-mail" placeholder="E-mail:" required>
+                    <input type="text" name="Seu celular" id="Seu celular" placeholder="Seu celular: 47 00000-0000">
+                    <textarea name="Sua mensagem" id="Sua mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+
+            </div><!--interface-->
+            <div class="voltar"><a href="#topo">Voltar ao topo</a></div>
+        </section><!--formulario-->
+            
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="flex">
+                <div class="linha-footer">
+                    <div class="logo">
+                        <h1>-----ALEX-----<br><span>DOGNINI</span></h1>
+                    </div><!--logo-->
+                </div><!--linha-footer-->
+
+                <div class="linha-footer">
+                    <p><i class="bi bi-envelope-fill"></i><a href="mailto:alexdevdognini@outlook.com">alexdevdognini@outlook.com</a></p>
+                </div><!--linha-footer-->
+            </div> <!--flex-->
+        </div><!--interface-->
+    </footer>
+
+
+    
+
+    
+    
+    
+</body>
+</html>
